@@ -1,0 +1,27 @@
+{
+  "name": "SQLHelpers",
+  "identifier": "git.tableplus-convert-double-quotes",
+  "version": "1.0",
+  "detail": "SQL Helpers TablePlus Plugin",
+  "author": "Umutcan Ülben",
+  "site": "https://github.com/yrnns/sql-helpers-tableplus-plugin",
+  "authorEmail": "umudyy@gmail.com",
+  "scripts": [
+    {
+      "location": "main",
+      "type": "action",
+      "script": "plugin.js",
+      "shortcut": "control+j",
+      "name": "Join",
+      "handler": "join"
+    },
+    {
+      "location": "main",
+      "type": "action",
+      "script": "plugin.js",
+      "shortcut": "control+q",
+      "name": "Join with Quotes",
+      "handler": "joinWithQuotes"
+    }
+  ]
+}
