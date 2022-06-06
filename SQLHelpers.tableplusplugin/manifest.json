@@ -1,6 +1,6 @@
 {
   "name": "SQLHelpers",
-  "identifier": "git.tableplus-convert-double-quotes",
+  "identifier": "git.sql-helpers-tableplus-plugin",
   "version": "1.0",
   "detail": "SQL Helpers TablePlus Plugin",
   "author": "Umutcan Ülben",
